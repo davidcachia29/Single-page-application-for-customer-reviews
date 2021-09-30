@@ -855,6 +855,7 @@
     <Content Include="Scripts\test-bundles\angular-route.js" />
     <Content Include="Scripts\test-bundles\angular-sanitize.js" />
     <Content Include="Scripts\test-bundles\angular-touch.js" />
+    <Content Include="Service.js" />
     <Content Include="Views\add.html" />
     <Content Include="Views\delete.html" />
     <Content Include="Views\edit.html" />

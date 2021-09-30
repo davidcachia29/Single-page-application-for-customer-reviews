@@ -1,5 +1,5 @@
 ﻿//Creating the route using injection 
-var MyApp = angular.module("MyApp", ['ngRoute']);
+var MyApp = angular.module("MyApp", ['ngRoute', 'EmployeeService']);
 
 
 //Creating route using ngRoute Module with service routeProvider
@@ -38,6 +38,14 @@ MyApp.controller("EditController", function ($scope) {
 MyApp.controller("DeleteController", function ($scope) {
     $scope.message = "in Delete View";
 })
-MyApp.controller("HomeController", function ($scope) {
-    $scope.message = "in Home View";
-})
+MyApp.controller("HomeController", function ($scope, EmpApi) {
+
+    getEmployees();
+    function getEmployees() {
+        EmpApi.getEmployees({}).then(function (emps) {
+            $scope.emps = emps;
+        }).catch(function (Object) {
+            alert(Object.data);
+        });
+    }
+});
