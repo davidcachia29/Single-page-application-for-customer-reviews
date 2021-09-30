@@ -1,10 +1,31 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="MyApp">
 <head>
-    <meta charset="utf-8" />
     <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="demo.js"></script>
 </head>
-<body>
 
+<body>
+    <div class="container">
+        <nav role="navigation" class="navbar navbar-inverse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#Home">Home</a></li>
+                <li><a href="#Add">Add</a></li>
+                <li><a href="#Edit">Edit</a></li>
+                <li><a href="#Delete">Delete</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Dynamic view loading asynchronously-->
+    <div ng-view>
+
+    </div>
 </body>
-</html>
+    </html>
