@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single-page-application-for-customer-reviews", "Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews.csproj", "{B10891F9-35E5-4C4B-AF1F-81892D568486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10891F9-35E5-4C4B-AF1F-81892D568486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10891F9-35E5-4C4B-AF1F-81892D568486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10891F9-35E5-4C4B-AF1F-81892D568486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10891F9-35E5-4C4B-AF1F-81892D568486}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97CFAC2B-296A-4DB3-8BE9-E7486FD0572B}
+	EndGlobalSection
+EndGlobal
