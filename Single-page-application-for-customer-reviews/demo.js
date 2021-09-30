@@ -26,3 +26,18 @@ MyApp.config(['$routeProvider',
                 redirectTo: '/Home'
             });
     }])
+
+//injecting the function dependency
+MyApp.controller("AddController", function ($scope) {
+    $scope.message = "in Add View";
+})
+
+MyApp.controller("EditController", function ($scope) {
+    $scope.message = "in Edit View";
+})
+MyApp.controller("DeleteController", function ($scope) {
+    $scope.message = "in Delete View";
+})
+MyApp.controller("HomeController", function ($scope) {
+    $scope.message = "in Home View";
+})

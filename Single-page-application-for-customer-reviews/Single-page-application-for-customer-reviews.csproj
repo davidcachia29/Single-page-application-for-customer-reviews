@@ -856,9 +856,9 @@
     <Content Include="Scripts\test-bundles\angular-sanitize.js" />
     <Content Include="Scripts\test-bundles\angular-touch.js" />
     <Content Include="Views\add.html" />
-    <Content Include="Views\Delete.html" />
-    <Content Include="Views\Edit.html" />
-    <Content Include="Views\Home.html" />
+    <Content Include="Views\delete.html" />
+    <Content Include="Views\edit.html" />
+    <Content Include="Views\home.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -888,6 +888,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
