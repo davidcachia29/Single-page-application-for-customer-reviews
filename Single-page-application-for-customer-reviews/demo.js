@@ -28,8 +28,24 @@ MyApp.config(['$routeProvider',
     }])
 
 //injecting the function dependency
-MyApp.controller("AddController", function ($scope) {
-    $scope.message = "in Add View";
+MyApp.controller("AddController", function ($scope, EmpApi) {
+    $scope.addEmp = function () {
+        var empToAdd = {
+            'Name': $scope.Name,
+            'Email': $scope.Email,
+            'mobil_no': $scope.mobil_no,
+        }
+        EmpApi.AddEmployee(empToAdd).then(function (response) {                 
+            $scope.Name = undefined;
+            $scope.Email = undefined;
+            $scope.mobil_no = undefined;
+            $alert("user added");
+        }).catch(function (responce) {
+            alert(Object.data);
+        });
+        
+           
+    }
 })
 
 MyApp.controller("EditController", function ($scope) {

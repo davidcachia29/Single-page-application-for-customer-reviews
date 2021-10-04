@@ -1,14 +1,11 @@
 ﻿<div class="row">
     <h1 class="text-center text-danger">Employees</h1>
     <hr />
-
     <div class="row">
-        <div class="col-md-9 col-md-offset-1">
+        <div class="col-md-9 col-md-offset-1">             
             <input type="text" placeholder="Type to filter here" class="input-lg form-control" ng-model="txtFilter" />
-
             <br />
             <br />
-            
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -17,7 +14,7 @@
                         <th>Mobile Number</th>
                     </tr>
                 </thead>
-                <tr ng-repeat="a in emps.data">
+                <tr ng-repeat="a in emps.data|filter:txtFilter">
                     <td>{{a.Name}}</td>
                     <td>{{a.Email}}</td>
                     <td>{{a.mobil_no}}</td>

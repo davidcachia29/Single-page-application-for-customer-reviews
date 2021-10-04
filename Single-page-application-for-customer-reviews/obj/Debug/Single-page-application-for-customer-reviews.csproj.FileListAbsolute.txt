@@ -52,8 +52,8 @@ E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-c
 E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\bin\roslyn\VBCSCompiler.exe.config
 E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\obj\Debug\Single-page-application-for-customer-reviews.csprojAssemblyReference.cache
 E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\obj\Debug\Single-page-application-for-customer-reviews.csproj.CoreCompileInputs.cache
 E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\obj\Debug\Single-page-application-for-customer-reviews.csproj.CopyComplete
 E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\obj\Debug\Single-page-application-for-customer-reviews.dll
 E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\obj\Debug\Single-page-application-for-customer-reviews.pdb
+E:\Single-page-application-for-customer-reviews\V4\Single-page-application-for-customer-reviews\Single-page-application-for-customer-reviews\obj\Debug\Single-page-application-for-customer-reviews.csprojAssemblyReference.cache
